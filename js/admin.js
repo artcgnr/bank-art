@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 let seenTransferIds = new Set();
 let isFirstLoad = true;
-const notificationSound = new Audio('./audio/2.mp3');
+const notificationSound = new Audio('./audio/3.mp3');
 
 function fetchData(tabType = null) {
   const dbRef = ref(db, 'transfers');
