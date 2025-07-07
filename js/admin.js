@@ -237,6 +237,6 @@ window.exportToExcel = function(type) {
 
   const workbook = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(workbook, worksheet, type);
-  XLSX.writeFile(workbook, `Nidhi_${type}_list_${formatDate(new Date().toISOString().split("T")[0])}.xlsx`);
+  XLSX.writeFile(workbook, `A.R.T_${type}_list_${formatDate(new Date().toISOString().split("T")[0])}.xlsx`);
 }
 
