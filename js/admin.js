@@ -205,7 +205,7 @@ window.exportToExcel = function(type) {
       "IFSC CODE": (cells[5]?.textContent.trim() || "").toUpperCase(),
       "BENEFICIARY EMAIL ID": "",
       "BENEFICIARY ID": "",
-      "CREDIT REMARKS": "CHENGANNUR NIDHI",
+      "CREDIT REMARKS": "A R T Leasing",
       "DEBIT REMARKS": (cells[0]?.textContent.trim() || "").toUpperCase(),
       "UNIQUE CUSTOMER REFERENCE NUMBER": ""
     };
