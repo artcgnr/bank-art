@@ -197,7 +197,7 @@ window.exportToExcel = function(type) {
     const cells = row.querySelectorAll('td');
     const data = {
       "TRANSACTION TYPE": (cells[6]?.textContent.trim() || "").toUpperCase(),
-      "DEBIT ACCOUNT NUMBER": "10240200011278",
+      "DEBIT ACCOUNT NUMBER": "10240200012847",
       "TRANSACTION AMOUNT": (cells[7]?.textContent.replace('₹', '').trim() || "").toUpperCase(),
       "VALUE DATE": formatDate(new Date().toISOString().split("T")[0]).toUpperCase(),
       "BENEFICIARY ACCOUNT NUMBER": (cells[4]?.textContent.trim() || "").toUpperCase(),
