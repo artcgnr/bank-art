@@ -12,6 +12,7 @@
       "CSB Bank",
       "DCB Bank",
       "Dhanlaxmi Bank",
+       "ESAF Small Finance Bank",
       "HDFC Bank",
       "ICICI Bank",
       "IDFC First Bank",
@@ -21,7 +22,7 @@
       "Jammu & Kashmir Bank",
       "Karnataka Bank",
       "Karur Vysya Bank",
-        "Kerala Gramina Bank",
+      "Kerala Gramina Bank",
       "Kotak Mahindra Bank",
       "Punjab & Sind Bank",
       "Punjab National Bank (PNB)",
@@ -34,4 +35,5 @@
     ]
 
 }
+
 
