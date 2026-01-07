@@ -1,10 +1,11 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
-import { getDatabase, ref, push, onValue, update, set, get, remove} from "https://www.gstatic.com/firebasejs/11.9.1/firebase-database.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
+import { getFirestore, getDoc, doc, addDoc, updateDoc, deleteDoc, collection, getDocs, query, where, orderBy, setDoc, onSnapshot, serverTimestamp, Timestamp, runTransaction } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js";
+
 
 const appSetting = {
     apiKey: "AIzaSyAFjOWuf6X3ijdYFuIVlPf-HMilCkQfASg",
     authDomain: "bank-transfer-art.firebaseapp.com",
-    databaseURL: "https://bank-transfer-art-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    //databaseURL: "https://bank-transfer-art-default-rtdb.asia-southeast1.firebasedatabase.app/",
     projectId: "bank-transfer-art",
     storageBucket: "bank-transfer-art.firebasestorage.app",
     messagingSenderId: "1054871065953",
@@ -12,8 +13,6 @@ const appSetting = {
 };
 
 const app = initializeApp(appSetting);
-const db = getDatabase(app);
+const db = getFirestore(app);
 
-export { db, ref, push, onValue, update, set, get, remove }; 
-
-
+export { db, getDoc, doc, addDoc, updateDoc, deleteDoc, collection, getDocs, query, where, onSnapshot, orderBy, setDoc, serverTimestamp, Timestamp, runTransaction }; 
