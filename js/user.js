@@ -204,10 +204,11 @@ document.getElementById('nameSearch').addEventListener('keyup', function () {
   const rows = document.querySelectorAll('#userList tr');
 
   rows.forEach(row => {
-    const nameCell = row.cells[1]; // index 1 = Name column
+    const nameCell = row.cells[2]; // index 1 = Name column
     if (nameCell) {
       const nameText = nameCell.textContent.toLowerCase();
       row.style.display = nameText.includes(filter) ? '' : 'none';
     }
   });
+
 });
